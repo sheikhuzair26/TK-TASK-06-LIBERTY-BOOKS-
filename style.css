@@ -1,0 +1,605 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 300vh;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: black;
+    height: 6vh;
+    color: white;
+    padding-top: 5px;
+    transition: ease-out 5s;
+}
+
+.info {
+    display: inline;
+    font-size: 12px;
+    margin: 5px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.info:hover {
+    font-weight: bold;
+}
+
+.orderinfo {
+    display: inline;
+    font-size: 12px;
+    margin: 5px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.orderinfo a:hover,
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.orderinfo a {
+    color: white;
+}
+
+.orderinfo:hover {
+    font-weight: bold;
+}
+
+.Rs {
+    position: absolute;
+    background-color: white;
+    color: red;
+    border-radius: 100%;
+    left: 213px;
+    text-align: center;
+    width: 36px;
+    height: 26px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.buttonrs {}
+
+.col-4 {
+    margin-left: 65px;
+}
+
+.Redsection {
+    background-color: #db2134;
+    height: 15vh;
+}
+
+.mainlogo {
+    height: 65px;
+    position: relative;
+    padding-top: 5px;
+    top: 13px;
+    left: 0px;
+}
+
+.searchbox {
+    position: absolute;
+    text-align: -webkit-auto;
+    width: 410px;
+    height: 48px;
+    top: 26px;
+    border-radius: 32%;
+    padding: 7px;
+    cursor: pointer;
+    outline: none;
+}
+
+.page a {
+    color: #000;
+}
+
+.page a:hover,
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+.Summary {
+    position: absolute;
+    background-color: white;
+    right: 111px;
+    padding: 2px 10px 0px;
+    top: 28px;
+    height: 46px;
+    width: 88px;
+    border-right-color: red;
+    border-left-color: red;
+    border-left-width: thick;
+    border-style: solid;
+    outline: none;
+    color: red;
+    font-size: small;
+}
+
+.searchimage {
+    cursor: pointer;
+    position: absolute;
+    right: 63px;
+    top: 40px;
+}
+
+.cart {
+    position: absolute;
+    top: 35px;
+    right: 89px;
+    border-style: solid;
+    border-radius: 21px;
+    width: 223px;
+    padding-left: 59px;
+    cursor: pointer;
+    border-color: black;
+    color: white;
+}
+
+.Thirdsec {
+    background-color: #eee;
+    height: 7vh;
+}
+
+.col-2 {
+    border-left-color: #db2134;
+    border-right-color: #db2134;
+    border-style: double;
+    border-bottom-style: none;
+    border-block-start-style: none;
+    border-left-style: none;
+    border-color: #db2134;
+    height: -webkit-fill-available;
+    text-align: center;
+    font-size: small;
+    padding-top: 13px;
+    font-weight: 500;
+}
+
+.col-2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.col-2 a:hover,
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+.col-2:hover {
+    font-weight: bold;
+}
+
+.homepic {
+    padding: 3px;
+    position: relative;
+    top: 2px;
+    right: -6px;
+    width: 34px;
+    height: 43px;
+    padding-top: 4px;
+    background-color: #eee;
+}
+
+.homepic:hover {
+    box-shadow: 3px 3px 5px #333333;
+}
+
+.forthsec {
+    background-color: #f4f4f4;
+    height: 6vh;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    font-size: small;
+    padding: 10px;
+    font-weight: 500;
+    margin-left: 215px;
+}
+
+ul li {
+    padding-right: 5px;
+}
+
+li:hover {
+    font-weight: bold;
+}
+
+.col-7 {
+    margin-left: 12px;
+}
+
+.horror {
+    height: 40px;
+    background-color: #f4f4f4;
+    padding-left: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 7px;
+}
+
+.col-3.yellow {
+    background-color: #f4f4f4;
+    height: 7vh;
+}
+
+.price {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 9px;
+}
+
+.detail-items {
+    background-color: #f4f4f4;
+    height: 6vh;
+    width: 57vw;
+    margin-right: 20px;
+}
+
+.Avail {
+    background-color: #f4f4f4;
+    height: 6vh;
+    width: 24vw;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 9px;
+}
+
+.chkbox {
+    font-size: 12px;
+}
+
+.author {
+    width: 327px;
+    border-color: #eee;
+    height: 39px;
+    color: black;
+    padding: 7px;
+    font-size: 12px;
+    cursor: pointer;
+    border-bottom-style: solid;
+}
+
+.grid {
+    padding-top: 5px;
+    padding-left: 13px;
+    cursor: pointer;
+}
+
+.gridpic:hover {
+    box-shadow: 1px 2px 3px red;
+}
+
+.gridproduct {
+    display: inline;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.gridproduct:hover {
+    font-weight: bold;
+}
+
+
+/* Selct Bars */
+
+.sortby {
+    display: -webkit-inline-box;
+    position: absolute;
+    left: 490px;
+    top: 116px;
+    font-size: 12px;
+}
+
+.selectbar1 {
+    background-color: #eee;
+    width: 152px;
+    height: 31px;
+    border-color: black;
+    color: red;
+    cursor: pointer;
+}
+
+.selectbar2 {
+    background-color: #eee;
+    width: 50px;
+    height: 31px;
+    border-color: black;
+    color: red;
+    cursor: pointer;
+}
+
+.show {
+    padding-left: 10px;
+}
+
+.A {
+    display: inline;
+}
+
+.PIC-A-LINE {
+    height: 218px;
+    padding: 18px;
+    padding-left: 0px;
+    margin-left: 16px;
+}
+
+.pic-details1 {
+    position: absolute;
+    left: 31px;
+    top: 394px;
+}
+
+.name {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 13px;
+}
+
+p {
+    color: #db2134;
+    font-size: 12px;
+}
+
+del {
+    color: #db2134;
+}
+
+.cartbutton {
+    font-size: small;
+    border-radius: 13px;
+    border-color: #db2134;
+    background-color: #db2134;
+    color: white;
+    height: 29px;
+    margin: 20px;
+    outline: none;
+}
+
+.cartbutton:hover {
+    box-shadow: 1px 2px 3px red;
+}
+
+.hovering-box {
+    display: inline-flex;
+    position: static;
+    height: 372px;
+    padding: 11px;
+    box-shadow: 3px 2px 2px #eee;
+}
+
+.hovering-box:hover {
+    box-shadow: 3px 2px 5px;
+}
+
+.pic-details2 {
+    position: absolute;
+    top: 394px;
+    left: 209px;
+}
+
+.pic-details3 {
+    position: absolute;
+    top: 394px;
+    left: 392px;
+}
+
+.pic-details4 {
+    right: 71px;
+    position: absolute;
+    top: 394px;
+}
+
+.pic-details5 {
+    position: absolute;
+    top: 793px;
+    left: 28px;
+}
+
+.pic-details6 {
+    position: absolute;
+    top: 791px;
+    left: 217px;
+}
+
+.pic-details7 {
+    position: absolute;
+    top: 789px;
+    right: 253px;
+}
+
+.pic-details8 {
+    position: absolute;
+    top: 789px;
+    right: 74px;
+}
+
+.pic-details9 {
+    position: absolute;
+    top: 1190px;
+    left: 37px;
+}
+
+.pic-details10 {
+    position: absolute;
+    top: 1190px;
+    left: 213px;
+}
+
+.pic-details11 {
+    position: absolute;
+    top: 1190px;
+    right: 258px;
+}
+
+.pic-details12 {
+    position: absolute;
+    top: 1190px;
+    right: 79px;
+}
+
+.radiobar {
+    background-color: #f4f4f4;
+    height: 6vh;
+    width: 57vw;
+    margin-right: 20px;
+}
+
+.pagination {
+    background-color: #f4f4f4;
+    box-shadow: none;
+}
+
+.pagination {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+.pagination .links {
+    float: left;
+}
+
+.pagination ul,
+.pagination li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pagination li.active {
+    background-color: #dd0017;
+}
+
+.pagination .active {
+    color: #fff;
+}
+
+.pagination a {
+    background-color: #fff;
+    color: #000;
+}
+
+.pagination a {
+    border-radius: 50%;
+}
+
+.pagination a,
+.pagination b,
+.pagination li {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: inherit;
+    margin-right: 4px;
+    transition: all .2s;
+}
+
+.pagination .results,
+.dataTables_info {
+    font-weight: 700;
+    font-family: ubuntu;
+    font-style: normal;
+    font-size: 13px;
+    text-transform: none;
+}
+
+.pagination li {
+    border-radius: 50%;
+}
+
+.pagination li {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #fff;
+    font-weight: 700;
+    font-family: inherit;
+    margin-right: 4px;
+    transition: all .2s;
+}
+
+.pagination:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.Black-footer {
+    background-color: #000;
+    height: 48 vh;
+    color: white;
+    padding-top: 42px;
+}
+
+.roundcircle {
+    display: inline;
+    border: #f4f4f4;
+    border-style: solid;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: white;
+    margin-left: 5px;
+}
+
+.socials {
+    position: relative;
+    top: -2px;
+    color: ligh
+}
+
+.roundcircle:hover {
+    box-shadow: 2px 3px 3px #eee;
+}
+
+h6 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.list:link,
+list :visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: serif;
+}
+
+.list:hover,
+list:active {
+    color: red;
+}
+
+.msgpic:hover {
+    box-shadow: 2px 2px 5px white;
+    cursor: pointer;
+}
+
+.easypaisa {
+    cursor: pointer;
+}
