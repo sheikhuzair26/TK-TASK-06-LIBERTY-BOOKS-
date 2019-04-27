@@ -581,9 +581,8 @@ h6 {
     font-family: 'Kaushan Script', cursive;
 }
 
-.list:link,
-list :visited {
-    color: white;
+.list:link, list :visited {
+    color: cyan;
     text-align: center;
     text-decoration: none;
     font-size: 12px;
