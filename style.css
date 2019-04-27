@@ -582,7 +582,7 @@ h6 {
 }
 
 .list:link, list:visited {
-    color: #eee;
+    color: white;
     text-align: center;
     text-decoration: none;
     font-size: 12px;
