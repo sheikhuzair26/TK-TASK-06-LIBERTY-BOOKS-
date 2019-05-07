@@ -592,7 +592,7 @@ h6 {
 
 
 .list:hover,
-.list:active {
+.list:active { 
     color: red;
 }
 
