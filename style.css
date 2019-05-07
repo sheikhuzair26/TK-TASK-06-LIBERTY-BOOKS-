@@ -589,6 +589,15 @@ h6 {
     font-family: serif;
 }
 
+
+.list:hover,
+list:visited {
+    color: white;
+}
+
+
+
+
 .list:hover,
 list:active {
     color: red;
