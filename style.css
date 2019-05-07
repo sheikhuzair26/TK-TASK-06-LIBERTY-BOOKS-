@@ -581,7 +581,11 @@ h6 {
     font-family: 'Kaushan Script', cursive;
 }
 
-.list:link, .list:visited{
+.list {
+    color: white;
+}
+
+.list:link {
     color: white;
     text-align: center;
     text-decoration: none;
@@ -589,10 +593,8 @@ h6 {
     font-family: serif;
 }
 
-
-
 .list:hover,
-.list:active { 
+list:active {
     color: red;
 }
 
